@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>گیم شاپ</title>
+    <link rel="stylesheet" href="style/default.css">
+    <link rel="stylesheet" href="style/font.css">
+    <link rel="stylesheet" href="style/default-style.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="style/News.css">
+    <link rel="stylesheet" href="style/Index-1.css">
+    <link rel="stylesheet" href="style/GameBox.css">
+    <link rel="stylesheet" href="style/ShopBox.css">
+    <link rel="stylesheet" href="style/GenreList.css">
+    <link rel="stylesheet" href="style/Index-2.css">
+    <link rel="stylesheet" href="style/Footer.css">
+</head>
+
+<body id="body">
+    <!-- هدر سایت -->
+    <header>
+        <div id="top-header">
+            <article id="top-header-box">
+                <nav>
+
+                    <a href=""><img src="svg/discord.svg" alt="" class="header-logo"></a>
+                    <a href=""><img src="svg/skype.svg" alt="" class="header-logo"></a>
+                    <a href="https://t.me/Javad_sf_t" target="_blank"><img src="svg/telegram_app.svg" alt=""
+                            class="header-logo" title="@javad_sf_t"></a>
+                    <a href=""><img src="svg/whatsapp.svg" alt="" class="header-logo"></a>
+                    <div style="clear: both;"></div>
+
+                </nav>
+
+                <div id="contact-row">
+
+                    <div class="contact-row">
+                        <p id="phone-header"><img src="svg/google_mobile.svg" alt="" class="contact-logo">09397798542</p>
+                    </div>
+
+                    <div class="contact-row">
+                        <p id="mail-header"><img src="svg/mail.svg" alt="" class="contact-logo"> Javad.sf.t@gmail.com</p>
+                    </div>
+
+                </div>
+            </article>
+        </div>
+
+        <div id="header-row">
+
+            <div id="bottom-header">
+
+                <div id="box-logo-pic">
+                    <a href=""><img src="pic/گیم شاپ.png" alt="" id="main-logo-1"></a>
+                    <a href=""><img src="pic/گیم شاپ 2.png" alt="" style="display: none;" id="main-logo-2"></a>
+                </div>
+
+                <article id="lamp-logo">
+                    <div onclick="light()" id="light-box" style="display: none;">
+                        <img src="svg/light.png" alt="" id="light-logo" title="حالت تاریک">
+                    </div>
+
+                    <div onclick="dark()" id="dark-box">
+                        <img src="svg/dark.png" alt="" id="dark-logo" title="حالت روشن">
+                    </div>
+                </article>
+
+                <nav id="text-line-menu">
+
+                    <ol id="ol-menu">
+                        <a href="">
+                            <li class="li-menu">خانه</li>
+                        </a>
+                        <a href="">
+                            <li class="li-menu">محصولات</li>
+                        </a>
+                        <a href="">
+                            <li class="li-menu">اخبار</li>
+                        </a>
+                        <a href="">
+                            <li class="li-menu">درباره ما</li>
+                        </a>
+                    </ol>
+                </nav>
+
+                <form action="" id="search-box">
+
+                    <input type="search" name="" id="text-search" placeholder="جستجوی مورد درخواستی">
+                    <div id="btn-search">
+                        <a href=""><img src="svg/search.svg" alt="" class="logo-black search-logo"></a>
+                        <a href=""><img src="svg/search-b.svg" alt="" class="logo-white search-logo" style="display: none;"></a>
+                    </div>
+                </form>
+
+                <nav id="login-box">
+                    <a href="" class="color">
+                        <img src="svg/lock.svg" alt="" class="logo-black login-logo">
+                        <img src="svg/lock-b.svg" alt="" class="logo-white login-logo" style="display: none;">
+                        عضویت / ورود
+                        <img src="svg/key.svg" alt="" class="logo-black login-logo">
+                        <img src="svg/key-b.svg" alt="" class="logo-white login-logo" style="display: none;">
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- بدنه سایت -->
+    <main>
+
+        <!-- تبلیغات بازی ها -->
+        <article id="game-ad-row">
+            <!-- عکس اصلی -->
+            <div id="pc-ad-box">
+
+                <div class="main-slide fade-main-pic">
+                    <a href=""><img src="pic/news/rembo.jpg" /></a>
+                </div>
+
+                <div class="main-slide fade-main-pic">
+                    <a href=""><img src="pic/news/assas.png" /></a>
+                </div>
+
+                <div class="main-slide fade-main-pic">
+                    <a href=""><img src="pic/news/1-bc.jpg" /></a>
+                </div>
+
+            </div>
+
+            <!-- عکس راست -->
+            <section class="game-news" style="margin-left:2% ;">
+
+                <div class="right-slide fade-right-pic">
+                    <a href=""><img src="pic/news/ps5-2.jpg" /></a>
+                </div>
+
+                <div class="right-slide fade-right-pic">
+                    <a href=""><img src="pic/news/high-gaming-pc.jpg" /></a>
+                </div>
+
+                <div class="right-slide fade-right-pic">
+                    <a href=""><img src="pic/news/stiem deck.jpg" /></a>
+                </div>
+
+            </section>
+
+            <!-- عکس چپ -->
+            <section class="game-news" style="margin-right:2% ;">
+
+                <div class="left-slide fade-left-pic">
+                    <a href=""><img src="pic/news/x-box.jpg" /></a>
+                </div>
+
+                <div class="left-slide fade-left-pic">
+                    <a href=""><img src="pic/news/android.jpg" /></a>
+                </div>
+
+                <div class="left-slide fade-left-pic">
+                    <a href=""><img src="pic/news/nintendo.jpg" /></a>
+                </div>
+
+            </section>
+
+        </article>
+
+        <!-- فلکس باکس , z-index -->
+        <article id="z-index-1">
+            <img src="png/twisted fate.png" alt="" class="tf">
+            <img src="png/ahry.png" alt="" class="ahry">
+            <img src="png/yasuo.png" alt="" class="yasuo">
+            <img src="png/dianna.png" alt="" class="dianna">
+            <img src="png/jinx.png" alt="" class="jinx">
+            <img src="png/akali.png" alt="" class="akali">
+            <img src="Png/garen-2.png" alt="" class="garen">
+            <img src="png/nasus.png" alt="" class="nasus">
+            <img src="png/ezreal.png" alt="" class="ezreal">
+            <img src="png/fizz.png" alt="" class="fizz">
+            <img src="Png/teemo.png" alt="" class="teemo">
+        </article>
+
+        <article id="textbox">
+            <div id="textbox-text">
+                <p>گیم باکس <br> (تجربه آخرین بازی های روز)</p>
+            </div>
+            <section id="game-poster-box">
+
+                <div class="game-poster-row">
+                    <a href=""><img src="pic/game-poster/mk11.jfif" alt=""></a>
+                </div>
+
+                <div class="game-poster-row">
+                    <a href=""><img src="pic/game-poster/elden ring.jfif" alt=""></a>
+                </div>
+
+                <div class="game-poster-row">
+                    <a href=""><img src="pic/game-poster/cod-vanguard.jpg" alt=""></a>
+                </div>
+
+                <div class="game-poster-row">
+                    <a href=""><img src="pic/game-poster/Call of Duty.png" alt=""></a>
+                </div>
+
+                <div class="game-poster-row pshow-sm pnone-xs pshow-md">
+                    <a href=""><img src="pic/game-poster/se4.jfif" alt=""></a>
+                </div>
+
+                <div class="game-poster-row pnone-xs pshow-md">
+                    <a href=""><img src="pic/game-poster/re2r.jpg" alt=""></a>
+                </div>
+
+                <div class="game-poster-row pnone-xs pshow-lg">
+                    <a href=""><img src="pic/game-poster/ew-2.jpg" alt=""></a>
+                </div>
+
+            </section>
+            <div id="game-poster-text">
+                <a href="">
+                    <p>موارد بیشتر<img src="svg/w-arrow.png" alt=""><img src="svg/w-arrow.png" alt=""></p>
+                </a>
+            </div>
+        </article>
+
+        
+
+        <!-- لوازم گیمینگ  -->
+        <!-- gaming/css -->
+        <article>
+
+            <div class="list-row">
+
+                <p class="list-row-right">
+                    <a href="" class="color"><img src="svg/fire.png" alt="" class="list-row-logo"> پرفروش ترین های هفته</a>
+                </p>
+
+                <p class="list-row-left">
+                    <a href="" class="color">موارد بیشتر
+                        <img src="svg/b-arrow.png" alt="" class="black-logo">
+                        <img src="svg/w-arrow.png" alt="" style="display: none;" class="white-logo">
+                        <img src="svg/w-arrow.png" alt="" style="display: none;" class="white-logo">
+                    </a>
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="gaming-row-box">
+
+
+            <div class="gaming-col-box" onmousemove="enter_1_pup()" onmouseout="out_1_pup()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-3.jpg" alt="" id="pup-pic-1">
+                    <p class="gaming-first-text">کنسول ps4 اسلیم به همراه 2 دسته</p>
+                    <p class="gaming-last-text">20/000/000</p>
+                </a>
+            </div>
+
+
+            <div class="gaming-col-box" onmousemove="enter_2_pup()" onmouseout="out_2_pup()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-3.jpg" alt="" id="pup-pic-2">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box" onmousemove="enter_3_pup()" onmouseout="out_3_pup()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-5.jpg" alt="" id="pup-pic-3">
+                    <p class="gaming-first-text"> کنسول X-box one s به همراه 2 دسته </p>
+                    <p class="gaming-last-text"> 20/000/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-xs" onmousemove="enter_4_pup()" onmouseout="out_4_pup()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-5.jpg" alt="" id="pup-pic-4">
+                    <p class="gaming-first-text"> کنسول Ps5 ریجن اروپا یک ترا </p>
+                    <p class="gaming-last-text"> 28/299/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-md" onmousemove="enter_5_pup()" onmouseout="out_5_pup()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-5.jpg" alt="" id="pup-pic-5">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1060 ddr5 </p>
+                    <p class="gaming-last-text">14/760/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-lg" onmousemove="enter_6_pup()" onmouseout="out_6_pup()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-2.jpg" alt="" id="pup-pic-6">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-xl" onmousemove="enter_7_pup()" onmouseout="out_7_pup()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-2.jpg" alt="" id="pup-pic-7">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+        </article>
+
+        <div id="game-style-caption">
+            <p>تلفیقی از برترین ژانر های گیمینگ</p>
+        </div>
+        <!-- ژانر های مختلف -->
+        <article id="flex-row">
+            <!-- _1_genre -->
+
+            <article class="pic-row" onmousemove="enter_1_genre()" onmouseout="out_1_genre()">
+
+                <div class="first" id="first-1-genre">
+                    <a href="">
+                        <img src="pic/first-genre/shoter.png" alt="" class="sid-pic">
+
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-1-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/shooter-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_2_genre()" onmouseout="out_2_genre()">
+
+                <div class="first" id="first-2-genre">
+                    <a href="">
+                        <img src="pic/first-genre/wicher.jfif" alt="" class="sid-pic">
+
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-2-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/witcher-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_3_genre()" onmouseout="out_3_genre()">
+
+                <div class="first" id="first-3-genre">
+                    <a href="">
+                        <img src="pic/first-genre/tomb.jpg" alt="" class="sid-pic">
+
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-3-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/tomb-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_4_genre()" onmouseout="out_4_genre()">
+
+                <div class="first" id="first-4-genre">
+                    <a href="">
+                        <img src="pic/first-genre/spider.jpg" alt="" class="sid-pic">
+
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-4-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/spider-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_5_genre()" onmouseout="out_5_genre()">
+
+                <div class="first" id="first-5-genre">
+                    <a href="">
+                        <img src="pic/first-genre/re2r.jpeg" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-5-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/re-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_6_genre()" onmouseout="out_6_genre()">
+
+                <div class="first" id="first-6-genre">
+                    <a href="">
+                        <img src="pic/first-genre/mortal.jpg" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-6-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/mortal kombat-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_7_genre()" onmouseout="out_7_genre()">
+
+                <div class="first" id="first-7-genre">
+                    <a href="">
+                        <img src="pic/first-genre/gow.jpeg" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-7-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/gow-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_8_genre()" onmouseout="out_8_genre()">
+
+                <div class="first" id="first-8-genre">
+                    <a href="">
+                        <img src="pic/first-genre/lol.jfif" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-8-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/lol-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_9_genre()" onmouseout="out_9_genre()">
+
+                <div class="first" id="first-9-genre">
+                    <a href="">
+                        <img src="pic/first-genre/horizen.jfif" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-9-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/survivel-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+
+            <article class="pic-row" onmousemove="enter_10_genre()" onmouseout="out_10_genre()">
+
+                <div class="first" id="first-10-genre">
+                    <a href="">
+                        <img src="pic/first-genre/fortnite.jpg" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-10-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/battle royal-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_11_genre()" onmouseout="out_11_genre()">
+
+                <div class="first" id="first-11-genre">
+                    <a href="">
+                        <img src="pic/first-genre/sport.jpg" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-11-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/sport-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+            <article class="pic-row" onmousemove="enter_12_genre()" onmouseout="out_12_genre()">
+
+                <div class="first" id="first-12-genre">
+                    <a href="">
+                        <img src="pic/first-genre/civilzation.jfif" alt="" class="sid-pic">
+                    </a>
+                </div>
+
+                <div class="sec" id="sec-12-genre">
+                    <a href="">
+                        <img src="pic/sec-genre/stratgy-2.jpg" alt="" class="js-pic">
+                    </a>
+                </div>
+            </article>
+
+
+        </article>
+
+        <!-- لوازم گیمینگ 2 -->
+        <!-- gaming/css -->
+        <article>
+
+            <div class="list-row">
+
+                <p class="list-row-right">
+                    <a href="" class="color"><img src="svg/fire.png" alt="" class="list-row-logo">کیس های گیمینگ</a>
+                </p>
+
+                <p class="list-row-left">
+                    <a href="" class="color">موارد بیشتر
+                        <img src="svg/b-arrow.png" alt="" class="black-logo">
+                        <img src="svg/w-arrow.png" alt="" style="display: none;" class="white-logo">
+                        <img src="svg/w-arrow.png" alt="" style="display: none;" class="white-logo">
+                    </a>
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="gaming-row-box">
+
+            <div class="gaming-col-box" onmousemove="enter_1_case()" onmouseout="out_1_case()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-1.jpg" alt="" id="case-pic-1">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box" onmousemove="enter_2_case()" onmouseout="out_2_case()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-2.jpg" alt="" id="case-pic-2">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box" onmousemove="enter_3_case()" onmouseout="out_3_case()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-3.jpg" alt="" id="case-pic-3">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-xs" onmousemove="enter_4_case()" onmouseout="out_4_case()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-4.jpg" alt="" id="case-pic-4">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-md" onmousemove="enter_5_case()" onmouseout="out_5_case()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-5.jpg" alt="" id="case-pic-5">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-lg" onmousemove="enter_6_case()" onmouseout="out_6_case()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-6.jpg" alt="" id="case-pic-6">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-xl" onmousemove="enter_7_case()" onmouseout="out_7_case()">
+                <a href="">
+                    <img src="pic/gaming/pc/pc-6.jpg" alt="" id="case-pic-7">
+                    <p class="gaming-first-text"> کیس اسمبل شده ddr5 , I7 , 4Gb Gpu </p>
+                    <p class="gaming-last-text"> 15/969/000</p>
+                </a>
+            </div>
+
+        </article>
+
+        <!-- فلکس باکس لوازم گیمینگ z-index -->
+        <!-- index-2.css -->
+        <!-- setup/css -->
+
+        <div id="game-setup-text" onmousemove="z_index_enter()" onmouseout="z_index_out()">
+            <p>فروش بهترین لوازم گیمینگ</p>
+        </div>
+
+        <article id="game-setup-zindex" onmousemove="z_index_enter()" onmouseout="z_index_out()">
+
+            <article id="z-index-2">
+                <img src="png-2/keyboard-2.png" alt="" id="keyboard">
+                <img src="png-2/pad.png" alt="" id="pad">
+                <img src="png-2/mouse-2.png" alt="" id="mouse">
+                <img src="png-2/case.png" alt="" id="case">
+            </article>
+
+            <section id="setup-game-line">
+
+                <div class="game-setup-row">
+                    <a href="">
+                        <img src="pic/other/headphone.jpeg" alt="">
+                        <p class="setup-first-text">هدفون گیمینگ رایزر</p>
+                        <br>
+                        <p class="setup-last-text">19/360/000</p>
+                    </a>
+                </div>
+
+                <div class="game-setup-row">
+                    <a href="">
+                        <img src="pic/other/headphone.jpeg" alt="">
+                        <p class="setup-first-text">هدفون گیمینگ رایزر</p>
+                        <br>
+                        <p class="setup-last-text">19/360/000</p>
+                    </a>
+                </div>
+
+                <div class="game-setup-row">
+                    <a href="">
+                        <img src="pic/other/keyboard.jpg" alt="">
+                        <p class="setup-first-text">هدفون گیمینگ رایزر</p>
+                        <br>
+                        <p class="setup-last-text">19/360/000</p>
+                    </a>
+                </div>
+
+                <div class="game-setup-row pnone-xs pshow-sm">
+                    <a href="">
+                        <img src="pic/other/keyboard.jpg" alt="">
+                        <p class="setup-first-text">هدفون گیمینگ رایزر</p>
+                        <br>
+                        <p class="setup-last-text">19/360/000</p>
+                    </a>
+                </div>
+
+                <div class="game-setup-row pnone-xs pshow-md ">
+                    <a href="">
+                        <img src="pic/other/monitor.jpg" alt="">
+                        <p class="setup-first-text">هدفون گیمینگ رایزر</p>
+                        <br>
+                        <p class="setup-last-text">19/360/000</p>
+                    </a>
+                </div>
+
+                <div class="game-setup-row pnone-xs pshow-xl">
+                    <a href="">
+                        <img src="pic/other/keyboard.jpg" alt="" class="none-in-xs">
+                        <p class="setup-first-text">هدفون گیمینگ رایزر</p>
+                        <br>
+                        <p class="setup-last-text">19/360/000</p>
+                    </a>
+                </div>
+
+                <div class="game-setup-row pnone-xs pshow-md">
+                    <a href="">
+                        <img src="pic/other/mouse.jpg" alt="" class="none-in-md">
+                        <p class="setup-first-text">هدفون گیمینگ رایزر </p>
+                        <br>
+                        <p class="setup-last-text">19/360/000</p>
+                    </a>
+                </div>
+
+            </section>
+
+            <article id="setup-row-left">
+                <a href="">موارد بیشتر <img src="svg/w-arrow.png" alt=""><img src="svg/w-arrow.png" alt=""></a>
+            </article>
+
+        </article>
+
+        <!-- لوازم گیمینگ3  -->
+        <!-- gaming/css -->
+        <article>
+
+            <div class="list-row">
+
+                <p class="list-row-right">
+                    <a href="" class="color"><img src="svg/fire.png" alt="" class="list-row-logo">برترین کارت گرافیک ها</a>
+                </p>
+
+                <p class="list-row-left">
+                    <a href="" class="color">موارد بیشتر
+                        <img src="svg/b-arrow.png" alt="" class="black-logo">
+                        <img src="svg/w-arrow.png" alt="" style="display: none;" class="white-logo">
+                        <img src="svg/w-arrow.png" alt="" style="display: none;" class="white-logo">
+                    </a>
+                </p>
+
+            </div>
+
+        </article>
+
+        <article class="gaming-row-box">
+
+            <div class="gaming-col-box" onmousemove="enter_1_gpu()" onmouseout="out_1_gpu()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-1.jpg" alt="" id="gpu-pic-1">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box" onmousemove="enter_2_gpu()" onmouseout="out_2_gpu()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-2.jpg" alt="" id="gpu-pic-2">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-xs" onmousemove="enter_3_gpu()" onmouseout="out_3_gpu()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-3.jpg" alt="" id="gpu-pic-3">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-xs none-in-md" onmousemove="enter_4_gpu()" onmouseout="out_4_gpu()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-4.jpg" alt="" id="gpu-pic-4">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-lg" onmousemove="enter_5_gpu()" onmouseout="out_5_gpu()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-5.jpg" alt="" id="gpu-pic-5">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box none-in-xs none-in-xl" onmousemove="enter_6_gpu()" onmouseout="out_6_gpu()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-6.jpg" alt="" id="gpu-pic-6">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+            <div class="gaming-col-box" onmousemove="enter_7_gpu()" onmouseout="out_7_gpu()">
+                <a href="">
+                    <img src="pic/gaming/gpu/gpu-7.jpg" alt="" id="gpu-pic-7">
+                    <p class="gaming-first-text"> کارت گرافیک Nvidia Titan 1080 ddr5 </p>
+                    <p class="gaming-last-text">16/340/000</p>
+                </a>
+            </div>
+
+        </article>
+
+    </main>
+
+    <footer>
+
+        <div id="top-footer">
+
+            <div id="top-footer-box">
+                <nav>
+                    <ol id="ol-footer-contant">
+
+                        <a href="">
+                            <li class="li-footer"><b>دسترسی های سریع</b></li>
+                        </a>
+                        <hr>
+                        <a href="">
+                            <li class="li-footer">درباره ما</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">تماس با ما</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">جدیدترین ها</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">اخبار روز بازی</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">مجله تکنولوژی</li>
+                        </a>
+
+                    </ol>
+                </nav>
+
+                <div id="caption-footer-logo">
+                    <b>گیم شاپ در شبکه های اجتماعی</b>
+                </div>
+
+                <nav>
+                    <ol id="ol-footer-off">
+
+                        <a href="">
+                            <li class="li-footer"><b>تخفیف های گیم شاپ</b></li>
+                        </a>
+                        <hr>
+                        <a href="">
+                            <li class="li-footer">کارت گرافیک</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">کیس های اسمبل شده</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">ست های گیمینگ</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">کنسول های بازی</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">بازی های رایانه ای</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">دسته بازی</li>
+                        </a>
+                        <a href="">
+                            <li class="li-footer">قطعات کامپیوتر</li>
+                        </a>
+
+                    </ol>
+                </nav>
+
+                <nav id="footer-logo-row">
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/facebook.svg" alt=""></a>
+                    </div>
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/YouTube.svg" alt=""></a>
+                    </div>
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/line.svg" alt=""></a>
+                    </div>
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/gmail.svg" alt=""></a>
+                    </div>
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/twitter.svg" alt=""></a>
+                    </div>
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/whatsapp-2.svg" alt=""></a>
+                    </div>
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/telegram_app-2.svg" alt=""></a>
+                    </div>
+
+                    <div class="col-logo">
+                        <a href=""><img src="svg/linkedin.svg" alt=""></a>
+                    </div>
+
+                </nav>
+
+                <nav id="ad-footer logo">
+                    <!-- not found good logo -->
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="bottom-footer">
+            تمام حقوق این سایت مربوط به فروشگاه گیم شاپ می باشد
+        </div>
+
+    </footer>
+</body>
+<script src="js/script.js"></script>
+<script src="js/genre.js"></script>
+
+</html>
