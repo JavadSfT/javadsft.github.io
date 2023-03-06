@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Samim;
+    src: url('Samim.eot');
+    src: url('Samim.eot?#iefix') format('FontName-opentype'),
+         url('../font/samim-font-v2.0.1/Farsi-Digits/Samim-FD.woff') format('woff'),
+         url('Samim.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  

@@ -1,0 +1,201 @@
+.list-row {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin: 5% 0 0 0;
+}
+
+.list-row-left {
+    position: absolute;
+    font-size: 11px;
+    transition: 0.5s ease-in-out;
+}
+
+.list-row-left img {
+    width: 7px;
+    margin-bottom: -1.5px;
+}
+
+.list-row-right {
+    font-size: 11px;
+}
+
+.gaming-row-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 5% 0;
+}
+
+.gaming-col-box {
+    position: relative;
+    height: auto;
+    background-color: white;
+    opacity: 0.75;
+    transition: 0.5s ease-in-out;
+}
+
+.gaming-col-box img {
+    width: 100%;
+}
+
+.gaming-first-text {
+    margin: 5% 0 15% 0;
+    text-align: start;
+}
+
+.gaming-last-text {
+    position: absolute;
+    bottom: -5px;
+    right: 8px;
+    font-size: 11.8px;
+}
+
+@media screen and (max-width:576px) {
+    .list-row-left {
+        left: 4%;
+        top: 7px;
+    }
+
+    .list-row-right {
+        margin: 2% 1% 3% 0;
+    }
+
+    .list-row-logo {
+        position: relative;
+        width: 20px;
+        top: 7px;
+    }
+
+    .gaming-row-box {
+        margin: 0 1.5% 5% -3%;
+    }
+
+    .gaming-col-box {
+        margin: 0 0.7% 0 0.7%;
+        width: 29%;
+        font-size: 11.5px;
+        padding: 1% 0.7% 5.5% 0.8%;
+    }
+
+    .none-in-lg,
+    .none-in-xl,
+    .none-in-xs,
+    .none-in-sm,
+    .none-in-md {
+        display: none;
+    }
+}
+
+@media screen and (min-width:576px) {
+
+    .list-row-left {
+        left: 3%;
+        top: 6px;
+    }
+
+    .list-row-logo {
+        position: relative;
+        width: 17px;
+        top: 4px;
+    }
+
+    .gaming-col-box {
+        margin: 0 0.8% 0 0.8%;
+        width: 21.1%;
+        font-size: 12.5px;
+        padding: 1% 1% 4.5% 1%;
+    }
+
+    .none-in-sm {
+        display: block;
+    }
+
+    .none-in-lg,
+    .none-in-md,
+    .none-in-xl {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    .list-row-left {
+        left: 3%;
+        top: 6px;
+    }
+
+    .list-row-logo {
+        position: relative;
+        width: 17px;
+        top: 4px;
+    }
+
+    .gaming-col-box {
+        margin: 0 0.9% 0 0.9%;
+        width: 16%;
+        font-size: 12.5px;
+        padding: 1% 1% 4.5% 1%;
+    }
+
+    .none-in-lg {
+        display: none;
+    }
+
+    .none-in-md {
+        display: block;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    .list-row-left {
+        left: 3%;
+        top: 6px;
+    }
+
+    .list-row-logo {
+        position: relative;
+        width: 17px;
+        top: 4px;
+    }
+
+    .gaming-col-box {
+        margin: 0 0.2% 0 0.2%;
+        width: 14%;
+        font-size: 12.5px;
+        padding: 1% 1% 4.5% 1%;
+    }
+
+    .none-in-lg {
+        display: block;
+    }
+
+    .none-in-xl {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .list-row-left {
+        left: 3%;
+        top: 6px;
+    }
+
+    .list-row-logo {
+        position: relative;
+        width: 20px;
+        top: 4px;
+    }
+
+    .gaming-col-box {
+        margin: 0 0.4%;
+        width: 11.2%;
+        font-size: 14px;
+        padding: 1% 1% 4.5% 1%;
+    }
+
+    .none-in-xl {
+        display: block;
+    }
+}

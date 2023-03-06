@@ -1,0 +1,138 @@
+.fade-main-pic {
+    -webkit-animation-name: fade-main-pic;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade-main-pic;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-main-pic {
+    from {
+        opacity: 0.1;
+        transform: translatey(-35px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-main-pic {
+    from {
+        opacity: 0.1;
+        transform: translatey(-35px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-right-pic {
+    -webkit-animation-name: fade-right-pic;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade-right-pic;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-right-pic {
+    from {
+        opacity: 0.1;
+        transform: translatex(25px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-right-pic {
+    from {
+        opacity: 0.1;
+        transform: translatex(25px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-left-pic {
+    -webkit-animation-name: fade-left-pic;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade-left-pic;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade-left-pic {
+    from {
+        opacity: 0.1;
+        transform: translatex(-25px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-left-pic {
+    from {
+        opacity: 0.1;
+        transform: translatex(-25px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/*  */
+#pc-ad-box {
+    position: relative;
+}
+
+#pc-ad-box img {
+    transition: 0.5s ease-in-out;
+}
+
+#game-ad-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game-news {
+    position: relative;
+    margin: 3% 0% 0 0%;
+    width: 48%;
+}
+
+.game-news img {
+    transition: 0.5s ease-in-out;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    #game-ad-row {
+        margin-top: 5%;
+        width: 99%;
+    }
+}
+
+@media screen and (min-width:576px) {
+    #pc-ad-box {
+        margin: 3% 0 0 0;
+    }
+
+    #game-ad-row {
+        margin-top: 2%;
+        width: 98%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    .game-news {
+        margin: 1.5% 0% 0 0%;
+    }
+}

@@ -1,0 +1,65 @@
+body {
+    margin: 0%;
+    direction: rtl;
+    /* color: #ffffff; */
+    background-color: #c3c3c3;
+    font-family: Samim;
+    cursor: default;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* قالب دیفالت */
+#game-style-caption,
+.game-setup-row,
+#game-setup-text,
+#textbox-text,
+#main-box,
+.game-setup-row img,
+#game-setup-zindex,
+.header-logo,
+#login-box,
+.game-news img,
+#game-ad-row img,
+#textbox,
+.sid-pic,
+.gaming-col-box,
+.sec img,
+.game-poster-row img {
+    border-radius: 10px;
+}
+
+/* رنگ فونت */
+#game-style-caption,
+#game-poster-text a,
+#setup-row-left,
+#phone-header,
+#mail-header,
+#ol-footer-off a,
+#ol-footer-contant a,
+#bottom-footer {
+    color: white;
+}
+
+/* text align */
+#game-style-caption,
+#game-setup-text,
+.gaming-col-box,
+#textbox-text,
+#bottom-footer,
+#login-box,
+#caption-footer-logo {
+    text-align: center;
+}

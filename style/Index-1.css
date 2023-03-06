@@ -1,0 +1,450 @@
+#z-index-1 {
+    position: relative;
+    z-index: -3;
+    width: 160px;
+    bottom: 70px;
+    right: 30%;
+    margin: 20% 0 0 0;
+}
+
+.tf,
+.ahry,
+.yasuo,
+.dianna,
+.jinx,
+.akali,
+.garen,
+.nasus,
+.ezreal,
+.fizz,
+.teemo {
+    position: absolute;
+
+}
+
+
+@media screen and (max-width:576px) {
+
+    #z-index-1 {
+        height: 160px;
+    }
+
+
+    .tf {
+        width: 100px;
+        height: 130px;
+        bottom: -25px;
+        right: 40px;
+    }
+
+    .ahry {
+        width: 100px;
+        height: auto;
+        right: 33px;
+        bottom: 60px;
+        z-index: -5;
+    }
+
+    .yasuo {
+        width: 80px;
+        height: 83px;
+        bottom: -8px;
+        right: 85px;
+        z-index: -1;
+        transform: rotate(-10deg);
+    }
+
+    .dianna {
+        width: 70px;
+        height: 83px;
+        right: 0px;
+        bottom: -40px;
+    }
+
+    .jinx {
+        width: 70px;
+        height: 70px;
+        right: 84px;
+        bottom: 75px;
+        z-index: -1;
+    }
+
+    .akali {
+        width: 45px;
+        right: 145px;
+        bottom: -40px;
+    }
+
+    .garen {
+        width: 80px;
+        right: 160px;
+        bottom: -20px;
+        z-index: -2;
+    }
+
+    .nasus {
+        width: 180px;
+        right: -40px;
+        bottom: -30px;
+        z-index: -4;
+    }
+
+    .ezreal {
+        width: 70px;
+        right: -60px;
+        bottom: -35px;
+    }
+
+    .fizz {
+        width: 70px;
+        right: -20px;
+        bottom: 42px;
+        z-index: -5;
+    }
+
+    .teemo {
+        width: 45px;
+        bottom: 68px;
+        right: 180px;
+    }
+}
+
+@media screen and (min-width:576px) {
+
+    #z-index-1 {
+        height: 160px;
+    }
+
+    .tf {
+        width: 120px;
+        height: 130px;
+        bottom: -25px;
+        right: 40px;
+    }
+
+    .ahry {
+        width: 120px;
+        height: auto;
+        right: 33px;
+        bottom: 50px;
+        z-index: -5;
+    }
+
+    .yasuo {
+        width: 100px;
+        height: 83px;
+        bottom: -8px;
+        right: 85px;
+        z-index: -1;
+        transform: rotate(-10deg);
+    }
+
+    .dianna {
+        width: 90px;
+        height: 83px;
+        right: 0px;
+        bottom: -40px;
+    }
+
+    .jinx {
+        width: 90px;
+        height: 85px;
+        right: 94px;
+        bottom: 70px;
+        z-index: -1;
+    }
+
+    .akali {
+        width: 55px;
+        right: 155px;
+        bottom: -40px;
+    }
+
+    .garen {
+        width: 100px;
+        right: 170px;
+        bottom: -20px;
+        z-index: -2;
+    }
+
+    .nasus {
+        width: 200px;
+        right: -50px;
+        bottom: -30px;
+        z-index: -4;
+    }
+
+    .ezreal {
+        width: 90px;
+        right: -90px;
+        bottom: -35px;
+    }
+
+    .fizz {
+        width: 90px;
+        right: -28px;
+        bottom: 46.5px;
+        z-index: -5;
+    }
+
+    .teemo {
+        width: 55px;
+        bottom: 88px;
+        right: 180px;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    #z-index-1 {
+        height: 180px;
+    }
+
+    .tf {
+        width: 140px;
+        height: auto;
+        bottom: -55px;
+        right: 60px;
+    }
+
+    .ahry {
+        width: 140px;
+        height: auto;
+        right: 52px;
+        bottom: 85px;
+        z-index: -5;
+    }
+
+    .yasuo {
+        width: 120px;
+        height: 113px;
+        bottom: -8px;
+        right: 110px;
+        z-index: -1;
+        transform: rotate(-10deg);
+    }
+
+    .dianna {
+        width: 110px;
+        height: 110px;
+        right: 0px;
+        bottom: -60px;
+    }
+
+    .jinx {
+        width: 110px;
+        height: 100px;
+        right: 116px;
+        bottom: 107px;
+        z-index: -1;
+    }
+
+    .akali {
+        width: 65px;
+        right: 185px;
+        bottom: -50px;
+    }
+
+    .garen {
+        width: 120px;
+        right: 200px;
+        bottom: -20px;
+        z-index: -2;
+    }
+
+    .nasus {
+        width: 240px;
+        right: -50px;
+        bottom: -30px;
+        z-index: -4;
+    }
+
+    .ezreal {
+        width: 110px;
+        right: -110px;
+        bottom: -45px;
+    }
+
+    .fizz {
+        width: 110px;
+        right: -24px;
+        bottom: 60px;
+        z-index: -5;
+    }
+
+    .teemo {
+        width: 65px;
+        bottom: 110px;
+        right: 215px;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    #z-index-1 {
+        height: 180px;
+    }
+
+    .tf {
+        width: 140px;
+        height: auto;
+        bottom: -55px;
+        right: 120px;
+    }
+
+    .ahry {
+        width: 140px;
+        height: auto;
+        right: 112px;
+        bottom: 85px;
+        z-index: -5;
+    }
+
+    .yasuo {
+        width: 120px;
+        height: 113px;
+        bottom: -8px;
+        right: 170px;
+        z-index: -1;
+        transform: rotate(-10deg);
+    }
+
+    .dianna {
+        width: 110px;
+        height: 110px;
+        right: 60px;
+        bottom: -60px;
+    }
+
+    .jinx {
+        width: 110px;
+        height: 100px;
+        right: 176px;
+        bottom: 107px;
+        z-index: -1;
+    }
+
+    .akali {
+        width: 65px;
+        right: 245px;
+        bottom: -50px;
+    }
+
+    .garen {
+        width: 120px;
+        right: 260px;
+        bottom: -20px;
+        z-index: -2;
+    }
+
+    .nasus {
+        width: 240px;
+        right: 10px;
+        bottom: -30px;
+        z-index: -4;
+    }
+
+    .ezreal {
+        width: 110px;
+        right: -50px;
+        bottom: -45px;
+    }
+
+    .fizz {
+        width: 110px;
+        right: 44px;
+        bottom: 60px;
+        z-index: -5;
+    }
+
+    .teemo {
+        width: 65px;
+        bottom: 110px;
+        right: 275px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    #z-index-1 {
+        height: 130px;
+    }
+
+    .tf {
+        width: 160px;
+        height: auto;
+        bottom: -55px;
+        right: 140px;
+    }
+
+    .ahry {
+        width: 160px;
+        height: auto;
+        right: 130px;
+        bottom: 105px;
+        z-index: -5;
+    }
+
+    .yasuo {
+        width: 140px;
+        height: 133px;
+        bottom: -8px;
+        right: 200px;
+        z-index: -1;
+        transform: rotate(-10deg);
+    }
+
+    .dianna {
+        width: 130px;
+        height: 125px;
+        right: 80px;
+        bottom: -60px;
+    }
+
+    .jinx {
+        width: 130px;
+        height: 120px;
+        right: 202px;
+        bottom: 127px;
+        z-index: -1;
+    }
+
+    .akali {
+        width: 85px;
+        right: 285px;
+        bottom: -50px;
+    }
+
+    .garen {
+        width: 140px;
+        right: 310px;
+        bottom: -20px;
+        z-index: -2;
+    }
+
+    .nasus {
+        width: 260px;
+        right: 20px;
+        bottom: -30px;
+        z-index: -4;
+    }
+
+    .ezreal {
+        width: 130px;
+        right: -62px;
+        bottom: -60px;
+    }
+
+    .fizz {
+        width: 130px;
+        right: 47px;
+        bottom: 66px;
+        z-index: -5;
+    }
+
+    .teemo {
+        width: 75px;
+        bottom: 135px;
+        right: 335px;
+    }
+}

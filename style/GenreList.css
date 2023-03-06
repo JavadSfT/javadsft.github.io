@@ -1,0 +1,124 @@
+#game-style-caption{
+    background-color: #1515C9;
+    padding: 0.5% 0;
+}
+
+#flex-row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+article.pic-row{
+    position: relative;
+    height: auto;
+    margin-top: 1%;
+}
+
+.first {
+    position: absolute;
+}
+
+.sec {
+    z-index: -1;
+    position: static;
+    height: auto;
+    opacity: -1;
+    transform: rotate(180deg);
+}
+
+.js-pic {
+    width: 90%;
+    height: auto;
+    transition: 0.5s ease-in-out;
+}
+
+.sid-pic {
+    width: 90%;
+    height: auto;
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width:576px) {
+
+    #game-style-caption {
+        margin: 10% 1.5% 0 1.5%;
+        width: 97%;
+    }
+
+    #flex-row {
+        margin-top: 3%;
+    }
+
+    article.pic-row {
+        width: 48%;
+        margin: 2% 1%;
+    }
+}
+
+@media screen and (min-width:576px) {
+
+    #game-style-caption {
+        width: 97.5%;
+        margin: 5% 0.5% 0 0;
+    }
+
+    #flex-row {
+        margin: 3% 1% 0 0;
+    }
+
+    article.pic-row {
+        width: 33.3%;
+    }
+
+    .js-pic {
+        width: 90%;
+        height: auto;
+        transition: 0.5s ease-in-out;
+    }
+}
+
+@media screen and (min-width:768px) {
+
+    #game-style-caption {
+        width: 97.5%;
+    }
+
+    #flex-row {
+        margin-top: 3%;
+    }
+
+    article.pic-row {
+        width: 33.3%;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+    #game-style-caption {
+        width: 98%;
+    }
+
+    #flex-row {
+        margin-top: 3%;
+    }
+
+    article.pic-row {
+        width: 33%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+
+    #game-style-caption {
+        width: 98%;
+    }
+
+    #flex-row {
+        margin-top: 3%;
+    }
+
+    article.pic-row {
+        width: 25%;
+    }
+}

@@ -1,0 +1,72 @@
+.header-logo:hover {
+    background-color: white;
+}
+
+.li-menu:hover {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+#pc-ad-box img:hover {
+    position: static;
+    opacity: 0.2;
+    transform: scalex(1.2);
+    z-index: -2;
+}
+
+.game-poster-row:hover{
+    opacity: 1;
+    transform: scale(1.05);
+    cursor:pointer;
+    border: 1px solid blueviolet;
+}
+
+#game-poster-text:hover {
+    transform: scale(1.1);
+}
+
+.sid-pic:hover {
+    transform: rotate(-10deg);
+    opacity: 0.3;
+    z-index: -1;
+    box-shadow: 10px 10px 10px #c3c3c3;
+}
+
+.game-news img:hover {
+    position: static;
+    opacity: 0.2;
+    transform: scale(0.8);
+    z-index: -2;
+}
+
+.gaming-col-box:hover {
+    z-index: 10000;
+    transform: scale(1.12);
+    font: bolder;
+    border: 3px solid blueviolet;
+    opacity: 1;
+}
+
+.list-row-left:hover {
+    transform: scale(1.1);
+    border-bottom: 1px solid black;
+}
+
+#game-setup-text:hover {
+    background-color: #1515C9;
+    color: white;
+    margin: 0;
+    border: 3px solid #1515C9;
+    margin: 7% 0 0 0;
+}
+
+#ol-footer-off li:hover,
+#ol-footer-contant li:hover {
+    transform: scale(1.05);
+    color: aqua;
+}
+
+.col-logo:hover {
+    transform: scale(1.1);
+}
